@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(44,56,88);
+  
+  color: azure;
+}
+
+a {
+  text-decoration: none;
+  color: azure; 
+}
+
+/* Navbar section*/
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_bar .nav_items {
+  padding: 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav_bar .nav_items:hover{
+  color: azure;
+  border-bottom: 3px solid yellow;
+  
+}
+
+/* Home section */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
