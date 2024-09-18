@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(44,56,88); 
+  background-color: rgb(44,56,123); 
   color: azure;
   font-family: 'Roboto', sans-serif;
 
@@ -25,7 +25,7 @@ a {
 
 .nav_bar .nav_items:hover{
   color: azure;
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid rgb(246, 193, 88);
   
 }
 

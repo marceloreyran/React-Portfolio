@@ -12,7 +12,7 @@ const Home = () => {
             <a href={pdf} download="Marcelo Reyna Rangel.pdf" className="btn btn-outline-warning">Download Resume</a>
         </div>
         <div className="right">
-            <div className="img">
+            <div className="  ">
                
             </div>
         </div>
