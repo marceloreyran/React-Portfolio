@@ -97,3 +97,22 @@
 
   }
  }
+
+
+ /*Expirience Section*/
+
+ .ex {
+  width: 900px;
+ }
+
+ .ex-items {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-color);
+  margin: 20px;
+  padding: 20px;
+  width: 790px;
+  border-radius: 10px;
+  border: 1px solid hsl(60, 100%, 50%);
+  box-shadow: var(--box-shadow);
+ }
