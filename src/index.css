@@ -4,11 +4,25 @@
  }
 
  body {
-   background-color: rgb(31, 41, 101);
    color: azure;
    font-family: 'Roboto', sans-serif;
 
  }
+
+ @keyframes desvanecerFondo {
+ 
+  0% {
+     background-color: rgb(40, 40, 41); 
+  }
+   
+  100%{
+    background-color: rgb(16, 13, 13);
+  }
+}
+
+body {
+  animation: desvanecerFondo 3s ease-in-out forwards;
+}
 
  a {
    text-decoration: none;
@@ -130,3 +144,4 @@
   justify-content: center;
   align-items: center;
 }
+
