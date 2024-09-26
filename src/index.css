@@ -117,3 +117,16 @@
   border: 1px solid hsl(60, 100%, 50%);
   box-shadow: var(--box-shadow);
  }
+
+
+/* Skills Section*/
+
+.skills {
+  width: 900px;
+}
+
+.skills .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
