@@ -1,4 +1,4 @@
- :root{
+ :root {
    --box-shadow: 5px 5px 10px 0px rgba(101, 175, 10, 0.5);
    --bg-color: rgb(45, 56, 139);
  }
@@ -9,20 +9,20 @@
 
  }
 
- @keyframes desvanecerFondo {
- 
-  0% {
-     background-color: rgb(40, 40, 41); 
-  }
-   
-  100%{
-    background-color: rgb(16, 13, 13);
-  }
-}
+ @keyframes changeback {
 
-body {
-  animation: desvanecerFondo 3s ease-in-out forwards;
-}
+   0% {
+     background-color: rgb(45, 56, 139);
+   }
+
+   100% {
+     background-color: rgb(20, 33, 133);
+   }
+ }
+
+ body {
+   animation: changeback 5s ease-in-out forwards;
+ }
 
  a {
    text-decoration: none;
@@ -64,7 +64,7 @@ body {
    padding: 30px;
    border-radius: 10px;
    border: 1px solid hsl(60, 100%, 50%);
-  box-shadow: var(--box-shadow);
+   box-shadow: var(--box-shadow);
  }
 
  .home .right .img {
@@ -85,63 +85,70 @@ body {
  }
 
 
- @keyframes superman  {
-  0%{
-    border-color: rgb(0, 0, 255);
-    transform: translate(0,0px);
-    box-shadow:  10px 10px 100px 50px rgb(0, 0, 255);
-  }
-  25%{
-    border-color: rgb(219, 223, 13);
-    box-shadow:  0px 10px 100px 50px rgb(239,223,13);
-  }
-  50%{
-    border-color:rgb(12, 12, 199);
-    transform: translate(0,10px);
-    box-shadow:  0px 10px 100px 50px rgb(12, 12, 199);
-  }
-  75%{
-    border-color:rgb(130, 217, 160);
-    box-shadow:  0px 10px 100px 50px rgb(130, 217, 160);
-  }
-  100%{
-    border-color:rgb(50,50,205);
-    transform: translate(0,-10px);
-    box-shadow:  0px 10px 100px 50px rgb(50,50,205);
+ @keyframes superman {
+   0% {
+     border-color: rgb(0, 0, 255);
+     transform: translate(0, 0px);
+     box-shadow: 10px 10px 100px 50px rgb(0, 0, 255);
+   }
 
-  }
+   25% {
+     border-color: rgb(219, 223, 13);
+     box-shadow: 0px 10px 100px 50px rgb(239, 223, 13);
+   }
+
+   50% {
+     border-color: rgb(12, 12, 199);
+     transform: translate(0, 10px);
+     box-shadow: 0px 10px 100px 50px rgb(12, 12, 199);
+   }
+
+   75% {
+     border-color: rgb(130, 217, 160);
+     box-shadow: 0px 10px 100px 50px rgb(130, 217, 160);
+   }
+
+   100% {
+     border-color: rgb(50, 50, 205);
+     transform: translate(0, -10px);
+     box-shadow: 0px 10px 100px 50px rgb(50, 50, 205);
+
+   }
  }
 
 
  /*Expirience Section*/
 
  .ex {
-  width: 900px;
+   width: 900px;
  }
 
  .ex-items {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--bg-color);
-  margin: 20px;
-  padding: 20px;
-  width: 790px;
-  border-radius: 10px;
-  border: 1px solid hsl(60, 100%, 50%);
-  box-shadow: var(--box-shadow);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: var(--bg-color);
+   margin: 20px;
+   padding: 20px;
+   width: 790px;
+   border-radius: 10px;
+   border: 1px solid hsl(60, 100%, 50%);
+   box-shadow: var(--box-shadow);
  }
 
 
-/* Skills Section*/
+ /* Skills Section*/
 
-.skills {
-  width: 900px;
+ .skills {
+   width: 900px;
+ }
+
+ .skills .items {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+.skills .items .item img {
+  width: 70px;
 }
-
-.skills .items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
