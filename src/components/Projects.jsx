@@ -1,8 +1,14 @@
 import React from 'react'
 
-export const Projects = () => {
+
+const Projects = () => {
   return (
-    <div>Projects</div>
+    <>
+    <div className="container projects">
+
+      <h2>Projects</h2>
+    </div>
+    </>
   )
 }
 
