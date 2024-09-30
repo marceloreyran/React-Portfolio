@@ -6,10 +6,11 @@ const Projects = () => {
     <>
     <div className="container projects">
 
-      <h2>Projects</h2>
+      <h1>PROJECTS</h1>
     </div>
     </>
   )
 }
 
 export default Projects
+
