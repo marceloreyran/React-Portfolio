@@ -10,8 +10,8 @@
         <h1>PROJECTS</h1>
         <div className="row">
           {project.map((data)=>(<>
-          <div key={data.id}>
-          <div className="card" style={{width:'18rem'}}>
+          <div key={data.id} className='my-5'>
+          <div className="card bg-dark text-light" style={{width:'18rem'}}>
   <div className="card-body text-center">
   <img src={data.imageSrc} className="card-img-top" alt="..."/>
     <h5 className="card-title">{data.title}</h5>
