@@ -5,12 +5,12 @@
   const Projects = () => {
     return (
       <>
-      <div className="container projects my-3">
+      <div className="container projects my-2">
 
         <h1>PROJECTS</h1>
         <div className="row">
           {project.map((data)=>(<>
-          <div key={data.id} className='my-5'>
+          <div key={data.id} className='my-3 col-sm-6 col-md-4 col-lg-3 mx-3'>
           <div className="card bg-dark text-light" style={{width:'18rem'}}>
   <div className="card-body text-center">
   <img src={data.imageSrc} className="card-img-top" alt="..."/>
