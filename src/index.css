@@ -169,3 +169,9 @@
   width: 80px;
 }
 
+
+/* Card Section*/
+
+.card-title, .card-text {
+  color: black;
+}
