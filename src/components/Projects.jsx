@@ -16,7 +16,7 @@
   <img src={data.imageSrc} className="card-img-top" alt="..."/>
     <h5 className="card-title">{data.title}</h5>
     <p className="card-text">{data.description}</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
+    <a href="#" className="btn btn-primary">Go Somewhere</a>
   </div>
 </div>
           </div>
