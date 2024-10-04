@@ -12,11 +12,11 @@
           {project.map((data)=>(<>
           <div key={data.id} className='my-3 col-sm-6 col-md-4 col-lg-3 mx-3'>
           <div className="card bg-dark text-light" style={{width:'18rem'}}>
-            <div className="img">
+            <div className="img d-flex justify-content-center align-items-center">
             <img src={data.imageSrc} className="card-img-top" alt="..."
             style={{
               width: '250px',
-              height: '250px',
+              height: '200px',
             }}/>
             </div>
   <div className="card-body text-center">
