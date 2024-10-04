@@ -8,7 +8,7 @@
       <div className="container projects my-2">
 
         <h1>PROJECTS</h1>
-        <div className="row">
+        <div className="row d-flex justify-content-center align-items-center">
           {project.map((data)=>(<>
           <div key={data.id} className='my-3 col-sm-6 col-md-4 col-lg-3 mx-3'>
           <div className="card bg-dark text-light" style={{width:'18rem'}}>
@@ -16,7 +16,7 @@
   <img src={data.imageSrc} className="card-img-top" alt="..."/>
     <h5 className="card-title">{data.title}</h5>
     <p className="card-text">{data.description}</p>
-    <a href="#" className="btn btn-primary">Go Somewhere</a>
+    <a href="#" className="btn btn-primary ">Go Somewhere</a>
   </div>
 </div>
           </div>
