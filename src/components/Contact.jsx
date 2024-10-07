@@ -14,26 +14,26 @@ const Contact = () => {
         <div className="container contact">
             <h1>CONTACT ME </h1>
             <div className="contact-icon">
-                <div className="items">
+                <a href='https://www.instagram.com/'className="items">
                 <FaInstagramSquare className='icons'/>
-                </div>
-                <div className="items">
+                </a>
+                <a href='https://www.linkedin.com/'className="items">
                 <FaLinkedin className='icons'/>
 
 
-                </div>
-                <div className="items">
+                </a>
+                <a href='https://www.github.com/'className="items">
                 <FaGithubSquare className='icons' />
 
-                </div>
-                <div className="items">
+                </a>
+                <a href='https://www.x.com/'className="items">
                 <FaXTwitter className='icons'/>
 
-                </div>
-                <div className="items">
+                </a>
+                <a href='https://www.gmail.com/'className="items">
                 <BiLogoGmail className='icons' />
 
-                </div>
+                </a>
             </div>
         </div>
         </>
