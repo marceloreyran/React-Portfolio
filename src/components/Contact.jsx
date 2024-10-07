@@ -15,23 +15,23 @@ const Contact = () => {
             <h1>CONTACT ME </h1>
             <div className="contact-icon">
                 <div className="items">
-                <FaInstagramSquare size={70} />
+                <FaInstagramSquare className='icons'/>
                 </div>
                 <div className="items">
-                <FaLinkedin size={70}/>
+                <FaLinkedin className='icons'/>
 
 
                 </div>
                 <div className="items">
-                <FaGithubSquare size={70} />
+                <FaGithubSquare className='icons' />
 
                 </div>
                 <div className="items">
-                <FaXTwitter size={70} />
+                <FaXTwitter className='icons'/>
 
                 </div>
                 <div className="items">
-                <BiLogoGmail size={70} />
+                <BiLogoGmail className='icons' />
 
                 </div>
             </div>
