@@ -3,6 +3,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { BiLogoGmail } from "react-icons/bi";
 
 
 
@@ -14,22 +15,25 @@ const Contact = () => {
             <h1>CONTACT ME </h1>
             <div className="contact-icon">
                 <div className="items">
-                <FaInstagramSquare size={80} />
+                <FaInstagramSquare size={70} />
                 </div>
                 <div className="items">
-                <FaLinkedin size={80}/>
+                <FaLinkedin size={70}/>
 
-
-                </div>
-                <div className="items">
-                <FaGithubSquare size={80} />
 
                 </div>
                 <div className="items">
-                <FaXTwitter size={80} />
+                <FaGithubSquare size={70} />
 
                 </div>
-                <div className="items"></div>
+                <div className="items">
+                <FaXTwitter size={70} />
+
+                </div>
+                <div className="items">
+                <BiLogoGmail size={70} />
+
+                </div>
             </div>
         </div>
         </>
