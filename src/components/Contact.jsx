@@ -1,6 +1,9 @@
 import React from 'react'
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 
 
 
@@ -18,8 +21,14 @@ const Contact = () => {
 
 
                 </div>
-                <div className="items"></div>
-                <div className="items"></div>
+                <div className="items">
+                <FaGithubSquare size={80} />
+
+                </div>
+                <div className="items">
+                <FaXTwitter size={80} />
+
+                </div>
                 <div className="items"></div>
             </div>
         </div>
