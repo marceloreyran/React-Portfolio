@@ -194,8 +194,13 @@
 .contact-icon .items:hover {
   background-color: var(--bg-color);
   box-shadow: var(--box-shadow);
+  color: white;
+
+  
 }
 
 .contact-icon .items  .icons {
   font-size: 2rem;
+
 }
+
