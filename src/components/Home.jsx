@@ -13,7 +13,7 @@ const Home = () => {
       ],
       typeSpeed: 50,
       backSpeed: 50,
-     loop: true,  
+      loop: true,  
     };
 
     const typed = new Typed(typedRef.current, options);
@@ -24,13 +24,13 @@ const Home = () => {
   }, []);
    return ( 
     <>
-      <div className="container home">
-        <div className="left">
+      <div className="container home" >
+        <div className="left" data-aos="fade-down" data-aos-duration="1000">
           <h1 ref={typedRef}></h1>
           <a href={pdf} download="Marcelo Reyna Rangel.pdf" className="btn btn-outline-warning my-3">Download Resume</a>
           </div>
          <div className="right">
-          <div className="img">
+          <div className="img" data-aos="fade-up-left" data-aos-duration="1000">
           <img src={`/assets/${hero.imgSrc}`} alt="hero" />                
           </div>
         </div>
