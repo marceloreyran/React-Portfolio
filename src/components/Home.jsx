@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Welcome to mi Portfolio, My name is Marcelo Reyna Rangel , I'm Front End Developer"
+        "My name is Marcelo Reyna Rangel , I'm Front End Developer"
         
       ],
       typeSpeed: 50,
@@ -22,12 +22,12 @@ const Home = () => {
       typed.destroy();
     };
   }, []);
-   return (
+   return ( 
     <>
       <div className="container home">
         <div className="left">
           <h1 ref={typedRef}></h1>
-          <a href={pdf} download="Marcelo Reyna Rangel.pdf" className="btn btn-outline-warning my-3">Download CV</a>
+          <a href={pdf} download="Marcelo Reyna Rangel.pdf" className="btn btn-outline-warning my-3">Download Resume</a>
           </div>
          <div className="right">
           <div className="img">
