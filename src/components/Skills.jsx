@@ -11,7 +11,7 @@ export const Skills = () => {
         <>
 
         
-          <div className="item" key={data.id}>
+          <div className="item" key={data.id} data-aos="flip-left" data-aos-duratin="1000">
             <img src={`/assets/${data.imageSrc}`} alt="" />
             <h3>{data.title}</h3>
           </div>
