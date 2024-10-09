@@ -12,9 +12,9 @@ const Contact = () => {
     return(
         <>
         <div className="container contact" id="contact">
-            <h1>CONTACT ME </h1>
+            <h4>CONTACT ME </h4>
             <div className="contact-icon" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">
+     data-aos-anchor-placement="top-center">
                 <a href='https://www.instagram.com/' target='_blank'  className="items" >
                 <FaInstagramSquare className='icons'/>
                 </a>

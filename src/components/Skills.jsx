@@ -5,7 +5,7 @@ export const Skills = () => {
   return (
     <>
     <div className="container skills" id="skills">
-      <h1>SKILLS</h1>
+      <h4>SKILLS</h4>
       <div className="items" >
       {skills.map((data) =>(
         <>

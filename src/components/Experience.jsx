@@ -6,7 +6,7 @@ const   Experience = () => {
   return (
     <>
     <div className="container ex" id="experience">
-      <h1>EXPERIENCE</h1>
+      <h4>EXPERIENCE</h4>
       {
         experience.map((data)=> {
           return(

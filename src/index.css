@@ -1,14 +1,15 @@
+
  :root {
    --box-shadow: 5px 5px 10px 0px rgba(101, 175, 10, 0.5);
    --bg-color: rgb(45, 56, 139);
-  
+     
+
  }
 
  body {
    color: azure;
    font-family: 'Roboto', sans-serif;
-   
-
+   animation: changeback 5s ease-in-out forwards;
  }
 
  @keyframes changeback {
@@ -21,32 +22,39 @@
      background-color: rgb(13, 20, 77);
    }
  }
-
- body {
-   animation: changeback 5s ease-in-out forwards;
- }
-
  a {
    text-decoration: none;
    color: azure;
  }
 
+ h4{
+   
+    color: yellow;
+ }
+
  /* Navbar section*/
+
+
  .nav_bar {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin: 20px;
+   padding: 10px;
+  
+
  }
 
  .nav_bar .nav_items {
    padding: 20px;
-   font-size: 1.4rem;
+   font-size: 1.2rem;
    font-weight: bold;
+   
  }
 
  .nav_bar .nav_items:hover {
    color: rgb(208, 165, 26);
-   border-bottom: 3px solid rgb(208, 165, 26);
+   border-bottom: 2px solid rgb(208, 165, 26);
 
 
  }
@@ -73,12 +81,13 @@
    display: flex;
    justify-items: center;
    align-items: center;
+  
  }
 
  .home .right .img img {
-   width: 350px;
-   height: 350px;
-   border: 5px solid yellow;
+   width: 320px;
+   height: 320px;
+   border: 2px solid yellow;
    border-radius: 100%;
    animation-name: superman;
    animation-duration: 3s;
@@ -86,9 +95,9 @@
 
  }
 
- .text{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 10px;
+ .text {
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 10px;
  }
 
 
@@ -158,56 +167,57 @@
    flex-wrap: wrap;
    margin: auto;
    width: 500px;
-   /*background-color:rgb(45, 56, 139);*/
    border-radius: 10px;
- 
+
  }
 
-.skills .items .item {
-  margin: 20px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: black;
-  border: 1px solid hsl(60, 100%, 50%);
-  box-shadow: var(--box-shadow);
-  width: calc(33.33%);
-}
-.skills .items .item img {
-  width: 80px;
-}
+ .skills .items .item {
+   margin: 20px;
+   padding: 20px;
+   border-radius: 10px;
+   background-color: var(--bg-color);
+   border: 1px solid hsl(60, 100%, 50%);
+   box-shadow: var(--box-shadow);
+   width: calc(33.33%);
+ }
+
+ .skills .items .item img {
+   width: 80px;
+ }
 
 
-/* Contact Section*/
+ /* Contact Section*/
 
-.contact-icon {
-  height: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
+ .contact-icon {
+   height: 30vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
-.contact-icon .items {
-  background-color: black;
-  margin: 10px;
-  width: 70px;
-  height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  border: 2px solid yellow;
-}
-.contact-icon .items:hover {
-  background-color: var(--bg-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+ }
 
-  
-}
+ .contact-icon .items {
+   background-color: black;
+   margin: 10px;
+   width: 70px;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100%;
+   border: 2px solid yellow;
+ }
 
-.contact-icon .items  .icons {
-  font-size: 2rem;
-  
-}
+ .contact-icon .items:hover {
+   background-color: var(--bg-color);
+   box-shadow: var(--box-shadow);
+   color: white;
+
+
+ }
+
+ .contact-icon .items .icons {
+   font-size: 2rem;
+
+ }
 
