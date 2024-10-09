@@ -13,7 +13,8 @@ const Contact = () => {
         <>
         <div className="container contact" id="contact">
             <h1>CONTACT ME </h1>
-            <div className="contact-icon" data-aos="flip-up" data-aos-duration="1000">
+            <div className="contact-icon" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
                 <a href='https://www.instagram.com/' target='_blank'  className="items" >
                 <FaInstagramSquare className='icons'/>
                 </a>
