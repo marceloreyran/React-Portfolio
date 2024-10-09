@@ -11,9 +11,9 @@ import { BiLogoGmail } from "react-icons/bi";
 const Contact = () => {
     return(
         <>
-        <div className="container contact">
+        <div className="container contact" id="contact">
             <h1>CONTACT ME </h1>
-            <div className="contact-icon">
+            <div className="contact-icon" data-aos="flip-up" data-aos-duration="1000">
                 <a href='https://www.instagram.com/' target='_blank'  className="items" >
                 <FaInstagramSquare className='icons'/>
                 </a>

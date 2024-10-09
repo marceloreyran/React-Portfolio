@@ -4,7 +4,7 @@ import skills from './data/skills.json';
 export const Skills = () => {
   return (
     <>
-    <div className="container skills">
+    <div className="container skills" id="skills">
       <h1>SKILLS</h1>
       <div className="items" >
       {skills.map((data) =>(

@@ -8,9 +8,9 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "My name is Marcelo Reyna Rangel , I'm Front End Developer"
-        
+        "My name is Marcelo Reyna Rangel - I'm FrontEnd Developer"    
       ],
+
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,  
@@ -23,8 +23,9 @@ const Home = () => {
     };
   }, []);
    return ( 
+    
     <>
-      <div className="container home" >
+      <div className="container home" id="home">
         <div className="left" data-aos="fade-down" data-aos-duration="1000">
           <h1 ref={typedRef}></h1>
           <a href={pdf} download="Marcelo Reyna Rangel.pdf" className="btn btn-outline-warning my-3">Download Resume</a>
