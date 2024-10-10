@@ -26,7 +26,7 @@
     <h5 className="card-title">{data.title}</h5>
     <p className="card-text">{data.description}</p>
     <a href={data.source} className="btn btn-primary mx-3 ">Github</a>
-    <a href={data.demo} className='btn btn-warning'>Code</a>
+    <a href={data.link} className='btn btn-warning'>Page</a>
   </div>
 </div>
           </div>
