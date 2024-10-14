@@ -25,15 +25,14 @@
   },
   {
     "id": 3,
-    "role": "Software Development Engineer - Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2021",
-    "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
+    "role": "IT - Intern",
+    "organisation": "Copy Systems ",
+    "startDate": "Apr 2014 ",
+    "endDate": "Jun, 2016 -",
+    "location": "Monterrey, México.",
     "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
+     "Hardware and Software monitoring Equipment connectivity, databases."
     ],
-    "imageSrc": "company/red.png"
+    "imageSrc": "company/conectado.png"
   }
 ]
