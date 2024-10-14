@@ -5,11 +5,11 @@
     "organisation": "TRESANDE S.A. de C.V",
     "startDate": "Sept 2018,",
     "endDate": "Present -",
-    "location": "Monterrey, México",
+    "location": "Monterrey, México.",
     "experiences": [
-     "Activities carried out in the position, client portofolio management, review and updating of contracts, payment offees and services , procesing of contracts with goverments agencies"
+     "Activities carried out in the position, client portofolio management, review and updating of contracts, payment offees and services , procesing of contracts with goverments agencies."
     ],
-    "imageSrc": "company/google.png"
+    "imageSrc": "company/empresa.png"
   },
   {
     "id": 2,
@@ -17,11 +17,11 @@
     "organisation": "GNSYS Corporative S.A. de C.V.",
     "startDate": "Aug 2016,",
     "endDate": "Aug 2018 -",
-    "location": "Monterrey, México",
+    "location": "Monterrey, México.",
     "experiences": [
-      "Activities carried out in position, Administrive area , Hardwareand Software Support , Hardware and Software monitoring Equipment connectivity, Databases."
+      "Activities carried out in position, Administrive area , Hardwareand Software Support , Hardware and Software monitoring Equipment connectivity, databases."
     ],
-    "imageSrc": "company/microsoft.png"
+    "imageSrc": "company/compania.png"
   },
   {
     "id": 3,
@@ -34,6 +34,6 @@
       "Worked on Nextflix payment system",
       "Helped to create UI for video player"
     ],
-    "imageSrc": "company/netflix.png"
+    "imageSrc": "company/romp.png"
   }
 ]
