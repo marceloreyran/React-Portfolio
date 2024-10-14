@@ -1,27 +1,25 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "startDate": "Sept, 2023",
-    "endDate": "Present",
-    "location": "CA,United State",
+    "role": "IT Analist",
+    "organisation": "TRESANDE S.A. de C.V",
+    "startDate": "Sept 2018,",
+    "endDate": "Present -",
+    "location": "Monterrey, México",
     "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
+     "Activities carried out in the position, client portofolio management, review and updating of contracts, payment offees and services , procesing of contracts with goverments agencies"
     ],
     "imageSrc": "company/google.png"
   },
   {
     "id": 2,
-    "role": "Software Development Engineer SDE - I",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
+    "role": "IT Support",
+    "organisation": "GNSYS Corporative S.A. de C.V.",
+    "startDate": "Aug 2016,",
+    "endDate": "Aug 2018 -",
+    "location": "Monterrey, México",
     "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
+      "Activities carried out in position, Administrive area , Hardwareand Software Support , Hardware and Software monitoringEquipment connectivity, Databases."
     ],
     "imageSrc": "company/microsoft.png"
   },
