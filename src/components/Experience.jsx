@@ -16,10 +16,10 @@ const   Experience = () => {
             <img src={`/assets/${data.imageSrc}`} alt="" />
             </div>
             <div className="right">
-              <h2>{data.role }</h2>
+              <h4>{data.role }</h4>
               <h4>
                 <span style={{color:'yellowgreen'}}>{data.startDate} {" "}{data.endDate}</span> <span style={{color:'yellow'}}>{" "}{data.location}</span></h4>
-                <h3 style={{color:'yellow'}}>{data.organisation}</h3>
+                <h5 style={{color:'yellow'}}>{data.organisation}</h5>
               <h5 style={{color:'yellow'}}>{data.experiences[0]}</h5>
               <h5 style={{color:'yellow'}}>{data.experiences[1]}</h5>
             </div>
