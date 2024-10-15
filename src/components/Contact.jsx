@@ -18,12 +18,12 @@ const Contact = () => {
                 <a href='https://www.instagram.com/' target='_blank'  className="items" >
                 <FaInstagramSquare className='icons'/>
                 </a>
-                <a href='https://www.linkedin.com/' target='_blank' className="items">
+                <a href='https://www.linkedin.com/in/marcelo-reyna-rangel-83b813216/' target='_blank' className="items">
                 <FaLinkedin className='icons'/>
 
 
                 </a>
-                <a href='https://www.github.com/' target='_blank' className="items">
+                <a href='https://github.com/marceloreyran' target='_blank' className="items">
                 <FaGithubSquare className='icons' />
 
                 </a>

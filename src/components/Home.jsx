@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "My name is Marcelo Reyna Rangel - I'm Frontend Developer"    
+        "My name is Marcelo Reyna Rangel - I'm Frontend Developer."    
       ],
 
       typeSpeed: 50,
@@ -27,7 +27,7 @@ const Home = () => {
     <>
       <div className="container home" id="home">
         <div className="left" data-aos="fade-down" data-aos-duration="1000">
-          <h1 ref={typedRef}></h1>
+          <h2 style={{color:'white'}} ref={typedRef}></h2>
           <a href={pdf} download="Marcelo Reyna Rangel.pdf" className="btn btn-outline-warning my-3">Download Resume</a>
           </div>
          <div className="right">
