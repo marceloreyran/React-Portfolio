@@ -14,6 +14,7 @@ const Contact = () => {
         <div className="container contact" id="contact">
             <h4>CONTACT ME </h4>
             <div className="contact-icon" data-aos="fade-up"
+     data-aos-duration="1000"
      data-aos-anchor-placement="top-center">
                 <a href='https://www.instagram.com/' target='_blank'  className="items" >
                 <FaInstagramSquare className='icons'/>
