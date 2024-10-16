@@ -9,7 +9,7 @@
     "experiences": [
      "Activities carried out in the position, client portofolio management, review and updating of contracts, payment offees and services , procesing of contracts with goverments agencies."
     ],
-    "imageSrc": "company/empresa.png"
+    "imageSrc": "company/emp.png"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "experiences": [
       "Activities carried out in position, Administrive area , Hardwareand Software Support , Hardware and Software monitoring Equipment connectivity, databases."
     ],
-    "imageSrc": "company/compania.png"
+    "imageSrc": "company/company.png"
   },
   {
     "id": 3,
@@ -33,6 +33,6 @@
     "experiences": [
      "Hardware and Software monitoring Equipment connectivity, databases."
     ],
-    "imageSrc": "company/conectado.png"
+    "imageSrc": "company/conect.png"
   }
 ]
