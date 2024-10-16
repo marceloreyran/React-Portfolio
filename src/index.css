@@ -148,7 +148,7 @@
    padding: 20px;
    width: 790px;
    border-radius: 10px;
-   border: 1px solid hsl(60, 100%, 50%);
+   border: 1px solid rgb(255, 255, 0);
    box-shadow: var(--box-shadow);
  }
 
