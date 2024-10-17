@@ -32,7 +32,7 @@ const Contact = () => {
                 <FaXTwitter className='icons'/>
 
                 </a>
-                <a href='https://www.gmail.com/' target='_blank' className="items">
+                <a href='https://www.google.com/intl/es-419/gmail/about/' target='_blank' className="items">
                 <BiLogoGmail className='icons' />
 
                 </a>
