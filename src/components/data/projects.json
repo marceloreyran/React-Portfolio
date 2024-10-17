@@ -3,7 +3,7 @@
     "key": 1,
     "title": "Portfolio page",
     "imageSrc": "https://port-marcelo.netlify.app/images/Marcelo-1.png",
-    "description": "This is a portfolio is made with Html, Css and Javascript",
+    "description": "This is a portfolio is made with Html, Css and Javascript.",
     "link": "https://port-marcelo.netlify.app",
     "source": "https://github.com/marceloreyran/Portfolio-Marcelo"
   },
@@ -11,7 +11,7 @@
     "key": 2,
     "title": "Landing page",
     "imageSrc": "https://cdn.mos.cms.futurecdn.net/8H5ZqSzzZGPn8sWXGZcTeK-1024-80.png.webp",
-    "description": "This is a project made with Html, Css and Javascript",
+    "description": "This is a project made with Html, Css and Javascript.",
     "link": "https://landing-page-marcelo.netlify.app/#",
     "source": "https://github.com/marceloreyran/Landing-Page"
   },
@@ -19,16 +19,32 @@
     "key": 3,
     "title": "Movies app",
     "imageSrc": "https://image.tmdb.org/t/p/w1280/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg",
-    "description": "This is a project made with Html, Css and Javascript",
+    "description": "This is a project made with Html, Css and Javascript.",
     "link": "https://github.com/marceloreyran/Project-Movies",
     "source": "https://movies-marcelo.netlify.app/"
   },
   {
     "key": 4,
+    "title": "Food Recipe",
+    "imageSrc": "https://www.themealdb.com/images/media/meals/sypxpx1515365095.jpg",
+    "description": "This is a project made with Html, Css and Javascript.",
+    "link": "https://food-rec.netlify.app/",
+    "source": "https://github.com/marceloreyran/Food-Recipe"
+  },
+  {
+    "key": 5,
     "title": "Github Search",
-    "imageSrc": "https://github.blog/wp-content/uploads/2023/01/1200x640-2.png?w=1200",
-    "description": "This is a project made with Html, Css and Javascript",
+    "imageSrc": "https://avatars.githubusercontent.com/u/9919?s=200&v=4",
+    "description": "This is a project made with Html, Css and Javascript.",
     "link": "https://github-search-marcelo.netlify.app/",
     "source": "https://github.com/marceloreyran/Github-Profiles"
+  },
+  {
+    "key": 6,
+    "title": "Notes Storage",
+    "imageSrc": "https://img.freepik.com/premium-vector/notes-icon-logo-vector-design-template_827767-4987.jpg",
+    "description": "This is a project made with Html, Css and Javascript.",
+    "link": "https://notes-process.netlify.app/",
+    "source": "https://github.com/marceloreyran/Notes-Storage"
   }
 ]

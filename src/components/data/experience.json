@@ -19,19 +19,19 @@
     "endDate": "Aug 2018 -",
     "location": "Monterrey, México.",
     "experiences": [
-      "Activities carried out in position, Administrive area , Hardwareand Software Support , Hardware and Software monitoring Equipment connectivity, databases."
+      "Activities carried out in position, Administrive area , Hardwareand Software Support , Hardware and Software monitoring Equipment connectivity, Databases."
     ],
     "imageSrc": "company/empresa.png"
   },
   {
     "id": 3,
-    "role": "IT - Intern",
+    "role": "IT Support",
     "organisation": "Copy Systems ",
     "startDate": "Apr 2014 ",
     "endDate": "Jun, 2016 -",
     "location": "Monterrey, México.",
     "experiences": [
-     "Hardware and Software monitoring Equipment connectivity, databases."
+     "Hardware and Software monitoring, Equipment connectivity, Databases."
     ],
     "imageSrc": "company/conect.png"
   }
