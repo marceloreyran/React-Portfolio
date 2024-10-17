@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "My name is Marcelo Reyna Rangel - I'm Frontend Developer."    
+        "I am Marcelo Reyna Rangel - I'm Frontend Developer."    
       ],
 
       typeSpeed: 50,
