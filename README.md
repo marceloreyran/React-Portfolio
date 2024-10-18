@@ -10,5 +10,4 @@ Currently, two official plugins are available:
 - [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4bf5c3e5-19c1-44cf-95b3-4860f3fe0c62/deploy-status)](https://app.netlify.com/sites/marcelo-react/deploys)
-                                        Netlify Deploy
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4bf5c3e5-19c1-44cf-95b3-4860f3fe0c62/deploy-status)](https://app.netlify.com/sites/marcelo-react/deploys) Netlify Deploy
